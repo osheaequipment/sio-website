@@ -37,7 +37,11 @@ export default function InventoryDetail({ params }) {
 
         <div>
           <p className="text-xs uppercase tracking-wide text-[#777]">{item.category}</p>
-          <p className="roboto-slab font-bold text-[20px] sm:text-[24px] lg:text-[32px] mt-1">{item.title}</p>
+          <h1 className="roboto-slab font-bold text-[20px] sm:text-[24px] lg:text-[32px] mt-1 m-0">
+            {item.title}
+            {item.category === "Amphibious Excavator" ? " Amphibious Excavator / Marsh Buggy" : ""}
+            {item.category === "Water Truck" ? " 6x6 Off-Road Water Truck" : ""}
+          </h1>
           <div className="mt-4 text-sm">
             <div className="flex items-center justify-between">
               <span className="text-[#555]">Price</span>
@@ -76,7 +80,7 @@ export default function InventoryDetail({ params }) {
 
           {/* Specs */}
           <div className="mt-10">
-            <p className="roboto-slab font-semibold text-[20px]">General</p>
+            <h2 className="roboto-slab font-semibold text-[20px] m-0">General Specifications</h2>
             <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
               {item?.specs && (
                 <>
@@ -101,14 +105,14 @@ export default function InventoryDetail({ params }) {
 
           {item.description && (
             <div className="mt-8">
-              <p className="roboto-slab font-semibold text-[20px]">Description</p>
+              <h2 className="roboto-slab font-semibold text-[20px] m-0">Description</h2>
               <pre className="mt-3 whitespace-pre-wrap text-sm bg-[#FAFAFA] border border-[#EAEAEA] rounded-md p-4">{item.description}</pre>
             </div>
           )}
 
           {item.attachments && (
             <div className="mt-8">
-              <p className="roboto-slab font-semibold text-[20px]">Attachments</p>
+              <h2 className="roboto-slab font-semibold text-[20px] m-0">Attachments</h2>
               <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
                 {Object.entries(item.attachments).map(([k, v]) => (
                   <div key={k} className="flex justify-between border-b pb-2"><span>{k}</span><span>{v}</span></div>
@@ -119,7 +123,7 @@ export default function InventoryDetail({ params }) {
 
           {item.categorySpecific && (
             <div className="mt-8">
-              <p className="roboto-slab font-semibold text-[20px]">Category Specific</p>
+              <h2 className="roboto-slab font-semibold text-[20px] m-0">Category Specific</h2>
               <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
                 {Object.entries(item.categorySpecific).map(([k, v]) => (
                   <div key={k} className="flex justify-between border-b pb-2"><span>{k}</span><span>{v}</span></div>
@@ -130,7 +134,7 @@ export default function InventoryDetail({ params }) {
 
           {item.chassis && (
             <div className="mt-8">
-              <p className="roboto-slab font-semibold text-[20px]">Chassis</p>
+              <h2 className="roboto-slab font-semibold text-[20px] m-0">Chassis</h2>
               <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
                 {Object.entries(item.chassis).map(([k, v]) => (
                   <div key={k} className="flex justify-between border-b pb-2"><span>{k}</span><span>{v}</span></div>
@@ -141,7 +145,7 @@ export default function InventoryDetail({ params }) {
 
           {item.interior && (
             <div className="mt-8">
-              <p className="roboto-slab font-semibold text-[20px]">Interior</p>
+              <h2 className="roboto-slab font-semibold text-[20px] m-0">Interior</h2>
               <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
                 {Object.entries(item.interior).map(([k, v]) => (
                   <div key={k} className="flex justify-between border-b pb-2"><span>{k}</span><span>{v}</span></div>
@@ -152,7 +156,7 @@ export default function InventoryDetail({ params }) {
 
           {item.shipping && (
             <div className="mt-8">
-              <p className="roboto-slab font-semibold text-[20px]">Shipping Dimensions</p>
+              <h2 className="roboto-slab font-semibold text-[20px] m-0">Shipping Dimensions</h2>
               <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
                 {Object.entries(item.shipping).map(([k, v]) => (
                   <div key={k} className="flex justify-between border-b pb-2"><span>{k}</span><span>{v}</span></div>
@@ -163,7 +167,7 @@ export default function InventoryDetail({ params }) {
 
           {item.seller && (
             <div className="mt-8">
-              <p className="roboto-slab font-semibold text-[20px]">Seller Information</p>
+              <h2 className="roboto-slab font-semibold text-[20px] m-0">Seller Information</h2>
               <div className="mt-3 text-sm space-y-1">
                 <div className="flex justify-between border-b pb-2"><span>Seller</span><span>{item.seller.name}</span></div>
                 <div className="flex justify-between border-b pb-2"><span>Contact</span><span>{item.seller.contact}</span></div>

@@ -22,11 +22,11 @@ export default function WaterTruckPage() {
         <div className="absolute inset-0 bg-[rgba(0,0,0,0.45)]" />
         <div className="absolute inset-0 flex items-center justify-center text-center px-5">
           <div className="max-w-4xl text-white">
-            <p className="roboto-slab font-bold text-[32px] md:text-[48px] lg:text-[64px] leading-tight">
-              Oshkosh 6x6 Off‑Road Water Truck
-            </p>
+            <h1 className="roboto-slab font-bold text-[32px] md:text-[48px] lg:text-[64px] leading-tight m-0">
+              Oshkosh 6x6 Off&#8209;Road Water Truck for Rent &amp; Sale
+            </h1>
             <p className="mt-4 text-sm md:text-base lg:text-xl opacity-95">
-              4,000 Gallon Capacity • Cab‑Controlled Spray System
+              4,000 Gallon Capacity &bull; Cab&#8209;Controlled Spray System &bull; Built for Dust Suppression, Pipeline Support &amp; Disaster Relief
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
               <button
@@ -47,11 +47,12 @@ export default function WaterTruckPage() {
       <div className="px-[20px] lg:px-[100px] py-12 lg:py-20">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           <div>
-            <p className="roboto-slab font-bold text-[28px] lg:text-[42px]">Built for the toughest job‑sites</p>
+            <h2 className="roboto-slab font-bold text-[28px] lg:text-[42px] m-0">Built for the Toughest Job&#8209;Sites</h2>
             <p className="mt-3 text-[#333] text-sm md:text-base lg:text-lg">
-              The Oshkosh MK23 6x6 Water Truck delivers high‑capacity water transport with exceptional reliability,
-              control and operator comfort. Whether it's dust suppression, soil compaction, fire mitigation, or remote
-              access support, this machine is ready to perform.
+              The Oshkosh MK23 6x6 Water Truck delivers high&#8209;capacity water transport with exceptional reliability,
+              control, and operator comfort. Whether it&apos;s dust suppression on construction sites, soil compaction on roadways,
+              fire mitigation for wildfire response, or remote-access support for pipeline and mining operations, this off-road
+              water truck is ready to perform.
             </p>
           </div>
           <div className="rounded-lg overflow-hidden border border-[#E5E5E5] bg-white shadow-sm">
@@ -72,28 +73,28 @@ export default function WaterTruckPage() {
       {/* Image Gallery */}
       <div className="px-[20px] lg:px-[100px] pb-16">
         <div className="max-w-7xl mx-auto">
-          <p className="roboto-slab font-bold text-[22px] lg:text-[32px] text-[#5C9544] mb-8 text-center">
+          <h2 className="roboto-slab font-bold text-[22px] lg:text-[32px] text-[#5C9544] mb-8 text-center m-0">
             In Action
-          </p>
+          </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="rounded-lg overflow-hidden border border-[#E5E5E5] bg-white shadow-sm">
               <WatermarkedImage
                 src="/waterTruck1.jpg"
-                alt="Oshkosh 6x6 Water Truck"
+                alt="Oshkosh MK23 6x6 off-road water truck with 4,000 gallon tank spraying for dust suppression"
                 className="w-full h-[300px] object-cover"
               />
             </div>
             <div className="rounded-lg overflow-hidden border border-[#E5E5E5] bg-white shadow-sm">
               <WatermarkedImage
                 src="/waterTruck2.jpg"
-                alt="Oshkosh 6x6 Water Truck"
+                alt="Oshkosh MK23 6x6 water truck on construction job site"
                 className="w-full h-[300px] object-cover"
               />
             </div>
             <div className="rounded-lg overflow-hidden border border-[#E5E5E5] bg-white shadow-sm">
               <WatermarkedImage
                 src="/waterTruck3.jpg"
-                alt="Oshkosh 6x6 Water Truck"
+                alt="Oshkosh 6x6 off-road water truck side view"
                 className="w-full h-[300px] object-cover"
               />
             </div>
@@ -104,9 +105,9 @@ export default function WaterTruckPage() {
       {/* Image Gallery Group 2 */}
       <div className="px-[20px] lg:px-[100px] pb-16">
         <div className="max-w-7xl mx-auto">
-          <p className="roboto-slab font-bold text-[22px] lg:text-[32px] text-[#5C9544] mb-8 text-center">
-            Fleet & Operational Views
-          </p>
+          <h2 className="roboto-slab font-bold text-[22px] lg:text-[32px] text-[#5C9544] mb-8 text-center m-0">
+            Fleet &amp; Operational Views
+          </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
             {Array.from({ length: 10 }, (_, i) => i + 1).map((num) => (
               <div key={num} className="rounded-lg overflow-hidden border border-[#E5E5E5] bg-white shadow-sm">
@@ -124,9 +125,9 @@ export default function WaterTruckPage() {
       {/* Image Gallery Group 3 */}
       <div className="px-[20px] lg:px-[100px] pb-16">
         <div className="max-w-7xl mx-auto">
-          <p className="roboto-slab font-bold text-[22px] lg:text-[32px] text-[#5C9544] mb-8 text-center">
+          <h2 className="roboto-slab font-bold text-[22px] lg:text-[32px] text-[#5C9544] mb-8 text-center m-0">
             Exterior Profile
-          </p>
+          </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {Array.from({ length: 2 }, (_, i) => i + 1).map((num) => (
               <div key={num} className="rounded-lg overflow-hidden border border-[#E5E5E5] bg-white shadow-sm">
@@ -144,13 +145,13 @@ export default function WaterTruckPage() {
       {/* Key Features & Specifications */}
       <div id="specs-section" className="px-[20px] lg:px-[100px] pb-16">
         <div className="bg-white border border-[#E5E5E5] rounded-xl p-6 lg:p-10">
-          <p className="roboto-slab font-bold text-[22px] lg:text-[32px] text-[#5C9544]">
-            Key Features & Specifications
-          </p>
+          <h2 className="roboto-slab font-bold text-[22px] lg:text-[32px] text-[#5C9544] m-0">
+            Key Features &amp; Specifications
+          </h2>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-6">
             <div>
-              <p className="font-semibold text-lg">Chassis & Powertrain</p>
+              <h3 className="font-semibold text-lg m-0">Chassis &amp; Powertrain</h3>
               <ul className="mt-3 space-y-2 text-sm lg:text-base">
                 <li className="flex justify-between border-b pb-2"><span>Model</span><span>Full‑Time 6x6 All‑Wheel Drive</span></li>
                 <li className="flex justify-between border-b pb-2"><span>Engine</span><span>CAT C‑12 Diesel @ 410 HP</span></li>
@@ -164,7 +165,7 @@ export default function WaterTruckPage() {
             </div>
 
             <div>
-              <p className="font-semibold text-lg">Water System</p>
+              <h3 className="font-semibold text-lg m-0">Water System</h3>
               <ul className="mt-3 space-y-2 text-sm lg:text-base">
                 <li className="flex justify-between border-b pb-2"><span>Tank Capacity</span><span>4,000 gallons (epoxy‑coated)</span></li>
                 <li className="flex justify-between border-b pb-2"><span>Pump</span><span>Berkley 4x3 / 750 GPM (hydraulic)</span></li>
@@ -179,7 +180,7 @@ export default function WaterTruckPage() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-10">
             <div>
-              <p className="font-semibold text-lg">Operator & Safety Enhancements</p>
+              <h3 className="font-semibold text-lg m-0">Operator &amp; Safety Enhancements</h3>
               <ul className="mt-3 space-y-2 text-sm lg:text-base">
                 <li>Cab with AC, heat, and air‑ride driver’s seat</li>
                 <li>On‑Road / Off‑Road Mode Selector</li>
@@ -190,7 +191,7 @@ export default function WaterTruckPage() {
               </ul>
             </div>
             <div>
-              <p className="font-semibold text-lg">Applications</p>
+              <h3 className="font-semibold text-lg m-0">Applications</h3>
               <div className="mt-3 grid grid-cols-2 sm:grid-cols-3 gap-3 text-sm lg:text-base">
                 {[
                   { label: "Dust Suppression", iconSrc: "/dustSuppression.png" },
@@ -212,8 +213,8 @@ export default function WaterTruckPage() {
       <div className="px-4 sm:px-[20px] lg:px-[100px] pb-12 sm:pb-16 lg:pb-24">
         <div className="bg-[#5C9544] rounded-2xl p-6 sm:p-8 lg:p-12 text-white flex flex-col lg:flex-row items-center justify-between gap-6">
           <div className="text-center lg:text-left">
-            <p className="roboto-slab font-bold text-[20px] sm:text-[24px] lg:text-[36px]">Ready to add capability to your fleet?</p>
-            <p className="mt-2 opacity-90 text-sm sm:text-base">Talk with our team about availability, pricing, and configurations.</p>
+            <h2 className="roboto-slab font-bold text-[20px] sm:text-[24px] lg:text-[36px] m-0">Ready to add an Oshkosh water truck to your fleet?</h2>
+            <p className="mt-2 opacity-90 text-sm sm:text-base">Talk with our team about availability, pricing, and custom configurations.</p>
           </div>
           <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
             <button

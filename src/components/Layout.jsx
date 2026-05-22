@@ -35,10 +35,10 @@ export default ({ children }) => {
       >
         <div>
           <Link href="/" prefetch={true}>
-            <img style={SHADOW} className="hidden cursor-pointer lg:block" src="/logo.svg" alt="Logo" />
+            <img style={SHADOW} className="hidden cursor-pointer lg:block" src="/logo.svg" alt="O'Shea Equipment Company - Amphibious Excavators and Marsh Buggies" />
           </Link>
           <Link href="/" prefetch={true}>
-            <img style={SHADOW} className="lg:hidden cursor-pointer" src="/logo-mv.svg" alt="Logo" />
+            <img style={SHADOW} className="lg:hidden cursor-pointer" src="/logo-mv.svg" alt="O'Shea Equipment Company - Amphibious Excavators and Marsh Buggies" />
           </Link>
         </div>
         <div className="hidden lg:flex items-center gap-3">
@@ -184,11 +184,11 @@ export default ({ children }) => {
         <div className="w-full flex flex-col lg:flex-row justify-between items-center lg:items-start gap-8 lg:gap-0">
           <div>
             <Link href="/" prefetch={true}>
-              <img className="cursor-pointer" src="/logo-footer.png" alt="Logo" />
+              <img className="cursor-pointer" src="/logo-footer.png" alt="O'Shea Equipment Company logo" />
             </Link>
           </div>
           <div className="hidden xl:block">
-            <img src="/footer-image.png" />
+            <img src="/footer-image.png" alt="O'Shea Equipment Company amphibious excavator at work" />
           </div>
           <div className="lg:pr-8 xl:pr-28 text-center lg:text-left">
             <div className="mb-6 flex gap-5 items-center justify-center lg:justify-start">
@@ -224,7 +224,7 @@ export default ({ children }) => {
       <div className="md:hidden pb-12 mt-12 px-4 sm:px-5">
         <div className="flex justify-center sm:justify-start">
           <Link href="/" prefetch={true}>
-            <img className="cursor-pointer max-w-[120px] sm:max-w-none" src="/logo-footer.png" alt="Logo" />
+            <img className="cursor-pointer max-w-[120px] sm:max-w-none" src="/logo-footer.png" alt="O'Shea Equipment Company logo - amphibious excavators and marsh buggies" />
           </Link>
         </div>
         <div className="mt-6 sm:mt-8">

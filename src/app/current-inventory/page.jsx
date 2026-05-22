@@ -31,11 +31,13 @@ function InventoryContent() {
       {/* Header */}
       <div className="flex items-center justify-between">
         <div>
-          <p className="roboto-slab font-bold text-[24px] sm:text-[28px] md:text-[32px] lg:text-[42px]">{displayHeading}</p>
+          <h1 className="roboto-slab font-bold text-[24px] sm:text-[28px] md:text-[32px] lg:text-[42px] m-0">{displayHeading}</h1>
           <p className="text-xs sm:text-sm lg:text-base text-[#444] mt-1">
-            {categoryFilter
+            {categoryFilter === "Amphibious Excavator"
+              ? "Caterpillar amphibious excavators / marsh buggies with EIK long-reach booms and amphibious undercarriages, available for rent or sale. Contact us for pricing and shipping quotes."
+              : categoryFilter
               ? `Available ${displayHeading.toLowerCase()} equipment. Contact us for pricing and shipping quotes.`
-              : "Latest equipment available. Contact us for pricing and shipping quotes."}
+              : "Browse our current inventory of amphibious excavators, marsh buggies, and Oshkosh 6x6 water trucks. Contact us for pricing and shipping quotes — nationwide delivery available."}
           </p>
         </div>
       </div>

@@ -70,10 +70,10 @@ export default () => {
     <div className="p-4 sm:p-8 md:p-12 lg:p-20">
       <div className="w-full md:flex gap-6 lg:gap-10">
         <div className="md:w-1/3 mb-8 md:mb-0">
-          <div className="font-bold text-[28px] sm:text-[32px] md:text-[36px] lg:text-[42px] mb-4">Stay Connected</div>
+          <h1 className="font-bold text-[28px] sm:text-[32px] md:text-[36px] lg:text-[42px] mb-4 m-0">Contact O&apos;Shea Equipment Company</h1>
           <div className="text-sm sm:text-base text-[16px]">
-            Contact us for personalized customer service, maintenance, or to
-            schedule repairs.
+            Contact us to request a quote for amphibious excavator rentals, marsh buggy sales,
+            Oshkosh 6x6 water trucks, or dredging equipment. We also handle service, parts, and custom builds.
           </div>
           <div className="mt-6 md:mt-8 font-medium text-[#5C9544]">
             O'Shea Equipment Company

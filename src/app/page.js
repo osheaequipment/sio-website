@@ -28,16 +28,16 @@ export default function Home() {
         ></div>
 
         <div className="w-full px-4 sm:w-4/5 lg:w-3/5 z-10 text-white text-center">
-          <p className="hidden lg:block font-bold roboto-slab text-[58px] xl:text-[72px]">
-          Safety, Efficiency, Purpose Built
-          </p>
-          <p className="lg:hidden font-bold roboto-slab text-[28px] sm:text-[32px] md:text-[42px] leading-[1.2]">
-          Safety,
-            <br /> Efficiency,
-            <br /> Purpose Built
-          </p>
+          <h1 className="hidden lg:block font-bold roboto-slab text-[58px] xl:text-[72px] m-0">
+          Amphibious Excavators &amp; Marsh Buggies
+          </h1>
+          <h1 className="lg:hidden font-bold roboto-slab text-[28px] sm:text-[32px] md:text-[42px] leading-[1.2] m-0">
+          Amphibious
+            <br /> Excavators &amp;
+            <br /> Marsh Buggies
+          </h1>
           <p className="text-base sm:text-[18px] md:text-[32px] xl:text-[40px] mt-4 leading-10">
-            Amphibious Excavators built for the most demanding job sites
+            Safety, Efficiency, Purpose Built &mdash; built for dredging, wetlands, and the most demanding job sites
           </p>
         </div>
         <div className="absolute w-full bottom-20 lg:bottom-8 flex justify-center">
@@ -47,18 +47,18 @@ export default function Home() {
       
       <div className="hidden xl:flex items-center justify-center py-20">
         <div className="flex items-center gap-20">
-          <img src="/soi-img.png" className="w-[800px] h-[500px]" />
+          <img src="/soi-img.png" className="w-[800px] h-[500px]" alt="O'Shea Equipment Company amphibious excavator at work on a wetland job site" />
           <div>
-            <img src="/digger.svg" />
-            <p className="roboto-slab font-bold text-[42px] mt-4">
-              Specialty Equipment Rentals.
-            </p>
+            <img src="/digger.svg" alt="Amphibious excavator icon" />
+            <h2 className="roboto-slab font-bold text-[42px] mt-4 m-0">
+              Amphibious Excavator &amp; Marsh Buggy Rentals
+            </h2>
             <p className="mt-3 text-[16px] max-w-[500px]">
-              A leader in reliable and cost- effective amphibious excavator and
-              specialty equipment rentals, we offer both standard reach
-              solutions and custom built long reach units. Our team of experts
-              is dedicated to helping you find the right equipment to complete
-              your project safely and efficiently.
+              A leader in reliable and cost-effective amphibious excavator and marsh buggy
+              rentals, O&apos;Shea Equipment Company offers both standard reach
+              solutions and custom-built long reach units for dredging, wetland construction,
+              pipeline, and civil projects. Our team of experts is dedicated to helping you
+              find the right equipment to complete your project safely and efficiently.
             </p>
             <button
               onClick={() => push("/current-inventory")}
@@ -72,16 +72,17 @@ export default function Home() {
       <div className="xl:hidden items-center justify-center">
         <div className="my-10">
           <div className="px-5">
-            <img src="/digger.svg" />
-            <p
+            <img src="/digger.svg" alt="Amphibious excavator icon" />
+            <h2
               style={{ lineHeight: "1.2" }}
-              className="roboto-slab font-bold text-[28px] sm:text-[32px] md:text-[42px]"
+              className="roboto-slab font-bold text-[28px] sm:text-[32px] md:text-[42px] m-0"
             >
-              Solution-Oriented Innovation
-            </p>
+              Amphibious Excavator &amp; Marsh Buggy Rentals
+            </h2>
             <p className="mt-3 text-sm sm:text-[14px]">
               As global leaders in reliable and cost-effective amphibious
-              excavators and attachments, we provide both general solutions and
+              excavators, marsh buggies, and long-reach attachments for dredging and wetland work,
+              O&apos;Shea Equipment Company provides both general solutions and
               custom-built units. Our team of experts will help you find the
               right products to get your project started.{" "}
             </p>
@@ -93,7 +94,7 @@ export default function Home() {
             </button>
           </div>
           <div className="w-full mt-14">
-            <img className="w-full" src="/soi-img-mv.png" />
+            <img className="w-full" src="/soi-img-mv.png" alt="O'Shea Equipment Company amphibious excavator on a job site" />
           </div>
         </div>
       </div>
@@ -101,10 +102,11 @@ export default function Home() {
       <div className="px-[20px] lg:px-[100px] py-16 bg-[#F6F6F6]">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           <div>
-            <p className="roboto-slab font-bold text-[32px] lg:text-[42px]">Water Trucks</p>
+            <h2 className="roboto-slab font-bold text-[32px] lg:text-[42px] m-0">Oshkosh 6x6 Water Trucks</h2>
             <p className="mt-3 text-[#333] text-sm md:text-base lg:text-lg max-w-[600px]">
-              Heavy-duty off-road water trucks engineered for dust suppression, soil compaction, and site support.
-              Explore our Oshkosh 6x6 builds with cab‑controlled spray systems and high‑capacity tanks.
+              Heavy-duty off-road water trucks engineered for dust suppression, soil compaction, pipeline support,
+              wildfire response, and remote site support. Explore our Oshkosh MK23 6x6 builds with 4,000 gallon tanks
+              and cab&#8209;controlled spray systems.
             </p>
             <div className="mt-6 flex gap-3">
               <button
@@ -127,16 +129,44 @@ export default function Home() {
           </div>
         </div>
       </div>
+      {/* About / What We Do — SEO-rich content section */}
+      <section className="px-[20px] lg:px-[100px] py-12 lg:py-20">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="roboto-slab font-bold text-[28px] sm:text-[32px] lg:text-[42px] m-0">
+            About O&apos;Shea Equipment Company
+          </h2>
+          <p className="mt-4 text-[#333] text-sm md:text-base lg:text-lg">
+            O&apos;Shea Equipment Company (OEC) is a specialty heavy equipment provider founded by
+            <strong> Shamus O&apos;Shea</strong>. We specialize in <strong>amphibious excavators</strong>
+            &mdash; also known as <strong>marsh buggies</strong> or swamp buggies &mdash; for use in
+            <strong> dredging</strong>, wetland construction, environmental remediation, pipeline,
+            and civil projects across the United States.
+          </p>
+          <p className="mt-4 text-[#333] text-sm md:text-base lg:text-lg">
+            Our fleet includes Caterpillar amphibious excavators (CAT 307E2, 312E, 330) outfitted with
+            EIK long-reach booms, sticks, ditching buckets, and AM-series amphibious undercarriages.
+            We also offer <strong>Oshkosh MK23 6x6 off-road water trucks</strong> with 4,000 gallon tanks
+            and cab-controlled spray systems for dust suppression, soil compaction, pipeline support,
+            wildfire response, and disaster relief.
+          </p>
+          <p className="mt-4 text-[#333] text-sm md:text-base lg:text-lg">
+            Based in Montgomery, Texas with units staged in Houston and Bryan, OEC ships nationwide.
+            Whether you need a marsh buggy for a wetland mitigation project, a long-reach amphibious
+            excavator for dredging, or a custom-built water truck for a remote job site, our team can help.
+          </p>
+        </div>
+      </section>
       <div className="relative h-[420px] sm:h-[500px] lg:h-[600px] xl:h-[700px]">
         <img
           src="/sec-4.png"
           className="w-full h-full absolute top-0 left-0 object-cover"
+          alt="Amphibious excavator and water truck inventory from O'Shea Equipment Company"
         />
         <div className="absolute top-6 left-6 sm:top-8 sm:left-8 lg:top-10 lg:left-10 bg-white px-6 py-6 sm:px-8 sm:py-8 lg:px-[80px] lg:py-[50px] max-w-[90%] sm:max-w-[70%] lg:max-w-none">
-          <p className="font-bold text-[28px] sm:text-[32px] lg:text-[42px] roboto-slab">
+          <h2 className="font-bold text-[28px] sm:text-[32px] lg:text-[42px] roboto-slab m-0">
             Discover the Perfect
             <br /> Tools for Your Project
-          </p>
+          </h2>
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-5 mt-6 lg:mt-10 text-base lg:text-[21px]">
             <button
               onClick={() => push("/current-inventory")}
