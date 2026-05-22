@@ -10,11 +10,11 @@ export default function InventoryDetail({ params }) {
   const { id } = params || {};
   const item = getListingById(id);
   const { push } = useRouter();
-  const sellerPhoneText = item?.seller?.phone || "(817) 415-0311";
+  const sellerPhoneText = item?.seller?.phone || "(817) 422-1393";
   const sellerPhoneDigits = (sellerPhoneText.match(/\d+/g) || []).join("");
   const sellerPhoneHref = sellerPhoneDigits
     ? `tel:+${sellerPhoneDigits.length === 10 ? "1" : ""}${sellerPhoneDigits}`
-    : "tel:+18174150311";
+    : "tel:+18174221393";
 
   if (!item) {
     return (

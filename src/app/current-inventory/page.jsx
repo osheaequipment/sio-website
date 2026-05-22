@@ -45,11 +45,11 @@ function InventoryContent() {
       {/* Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6 mt-8">
         {filteredListings.map((item) => {
-          const sellerPhoneText = item?.seller?.phone || "(817) 415-0311";
+          const sellerPhoneText = item?.seller?.phone || "(817) 422-1393";
           const sellerPhoneDigits = (sellerPhoneText.match(/\d+/g) || []).join("");
           const sellerPhoneHref = sellerPhoneDigits
             ? `tel:+${sellerPhoneDigits.length === 10 ? "1" : ""}${sellerPhoneDigits}`
-            : "tel:+18174150311";
+            : "tel:+18174221393";
 
           return (
           <div key={item.id} className="bg-white border border-[#E5E5E5] rounded-md overflow-hidden flex flex-col">

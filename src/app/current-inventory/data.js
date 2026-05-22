@@ -61,7 +61,7 @@ export const listings = [
     seller: {
       name: "O'Shea Equipment Company",
       contact: "Shamus O'Shea",
-      phone: "(817) 415-0311",
+      phone: "(817) 422-1393",
       city: "Montgomery, Texas 77356-3219",
     },
   },
@@ -121,7 +121,7 @@ export const listings = [
     seller: {
       name: "O'Shea Equipment Company",
       contact: "Shamus O'Shea",
-      phone: "(817) 415-0311",
+      phone: "(817) 422-1393",
       city: "Montgomery, Texas 77356-3219",
     },
   },
@@ -182,7 +182,7 @@ export const listings = [
     seller: {
       name: "O'Shea Equipment Company",
       contact: "Shamus O'Shea",
-      phone: "(817) 415-0311",
+      phone: "(817) 422-1393",
       city: "Montgomery, Texas 77356-3219",
     },
   },
@@ -233,7 +233,7 @@ export const listings = [
     seller: {
       name: "O'Shea Equipment Company",
       contact: "Shamus O'Shea",
-      phone: "(817) 415-0311",
+      phone: "(817) 422-1393",
       city: "Montgomery, Texas 77356-3219",
     },
   },
@@ -280,7 +280,7 @@ export const listings = [
     seller: {
       name: "O'Shea Equipment Company",
       contact: "Shamus O'Shea",
-      phone: "(817) 415-0311",
+      phone: "(817) 422-1393",
       city: "Montgomery, Texas 77356-3219",
     },
   },
@@ -335,7 +335,7 @@ export const listings = [
     seller: {
       name: "O'Shea Equipment Company",
       contact: "Shamus O'Shea",
-      phone: "(817) 415-0311",
+      phone: "(817) 422-1393",
       city: "Montgomery, Texas 77356-3219",
     },
   },
@@ -385,7 +385,7 @@ export const listings = [
     seller: {
       name: "O'Shea Equipment Company",
       contact: "Shamus O'Shea",
-      phone: "(817) 415-0311",
+      phone: "(817) 422-1393",
       city: "Montgomery, Texas 77356-3219",
     },
   },
