@@ -1,3 +1,4 @@
+import Script from "next/script";
 import Layout from "@/components/Layout";
 import "./globals.css";
 import 'antd/dist/reset.css';
@@ -18,6 +19,12 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         <Layout>{children}</Layout>
+        {/* HubSpot tracking + chat script */}
+        <Script
+          id="hs-script-loader"
+          src="//js-na2.hs-scripts.com/245769545.js"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
