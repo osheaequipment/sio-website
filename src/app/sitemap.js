@@ -1,5 +1,6 @@
 // Dynamic sitemap.xml — Next.js auto-generates this at /sitemap.xml on deploy.
 // Lists every page so Google can discover and crawl them.
+// Updated to trigger Vercel deployment after Git reconnect.
 
 import { listings } from "./current-inventory/data";
 
